@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-euiv="X-UA-Compatible" content="ie-edge" />
+    <title>Quick Quiz | Results</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div class="container">
+        <div id="end" class="flex-center flex-column">
+            <h2>Your final Score is</h2>
+            <h1 id="finalScore"></h1>
+            <form>
+                <input type="text" name="username" id="username" placeholder="User Name">
+                <button type="submit" class="btn" id="btnSaveScore" onclick="saveHighScore(event)" disabled>Submit Score</button>
+            </form>
+            <a class="btn" href="/game.html">Play Game</a>
+            <a class="btn" href="index.html">Home</a>
+        </div>
+    </div>
+    <script src="end.js"></script>
+</body>
+</html>
